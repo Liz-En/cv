@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header header" id="header">
+    <nav class="nav container">
+        <a href="#about" class="nav__brand">
+          <img src="https://fe-minimalist-portfolio.netlify.app/assets/images/logo.svg" class="nav__logo" alt="website logo">
+        </a>
+        <ul class="nav__lists" id="nav__lists">
+          <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+          <li class="nav__item"><a href="/portfolio/index.html" class="nav__link">Portfolio</a></li>
+          <li class="nav__item"><a href="/contact-me/index.html" class="nav__link">Contact Me</a></li>
+        </ul>
+
+      <a id="nav__toggle" class="nav__burger" aria-label="open navigation">
+        <div class="nav__burger-lines" id="nav__burger-lines">
+            <span class="nav__burger-line nav__burger-line--1"></span>
+            <span class="nav__burger-line nav__burger-line--2"></span>
+            <span class="nav__burger-line nav__burger-line--3"></span>
+        </div>
+      </a> 
+    </nav>
+  </header>
+  
+  <main class="container main">
+    <section class="banner">
+      <picture class="banner__images">
+        <source media="(min-width: 1110px)" srcset="https://fe-minimalist-portfolio.netlify.app/assets/images/homepage/desktop/image-homepage-hero.jpg">
+        <source media="(min-width: 768px)" srcset="https://fe-minimalist-portfolio.netlify.app/assets/images/homepage/tablet/image-homepage-hero.jpg">
+        <img src="" alt="" class="banner__image" >
+      </picture>
+      <div class="banner__heading">
+        <h1 class="banner__title">Hey, I’m Elizabeth Enoch and I love building beautiful websites</h1>
+        <a href="#about" class="btn btn-cta">
+          <img src="https://fe-minimalist-portfolio.netlify.app/assets/images/icons/down-arrows.svg" class="down-arrow" alt="">
+          About Me
+        </a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about__image">
+        <img class="about__pic" src="/homepage/Elizabeth Enoch Photo.PNG" alt="Elizabeth Enoch">
+      </div>
+      <div class="about__description">
+        <h2 class="h2">About Me</h2>
+        <p>
+          I’m a junior front-end developer looking for a new role in an exciting company. 
+          I focus on writing accessible HTML, using modern CSS practices and writing clean 
+          JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to 
+          whatever tools are required. I’m currently based London, UK, but I’m happy working remotely 
+          and have experience in remote teams. I’d love  you to check out my work.
+        </p>
+
+        <a href="/portfolio/index.html" class="btn btn-secondary">
+          Go to Portfolio
+        </a>
+      </div>
+    </section>
+
+    <section id="contact-me">
+      <h2 class="contact__title">Interested in doing a project together?</h2>
+      <div class="contact__line">
+
+      </div>
+      <a href="/contact-me/index.html" class="btn btn-secondary">
+        Contact Me
+      </a>
+    </section>
+  </main>
+  
+  <footer id="footer">
+    <div class="container footer" >
+      <div class="footer__links">
+        <a href="#" class="nav__brand">
+          <img src="https://fe-minimalist-portfolio.netlify.app/assets/images/light-logo.png" alt="website logo">
+        </a>
+        <ul class="footer__lists">
+          <li class="footer__item"><a href="index.html" class="footer__link">Home</a></li>
+          <li class="footer__item"><a href="/portfolio.html" class="footer__link">Portfolio</a></li>
+          <li class="footer__item"><a href="contact.html" class="footer__link">Contact Me</a></li>
+        </ul>
+      </div>
+        
+      <div class="social-media__links">
+        <a href="" target="_blank" class="social-media__link"><img src="https://fe-minimalist-portfolio.netlify.app/assets/images/icons/github.svg" alt="github"></a>
+        <a href="" target="_blank" class="social-media__link"><img src="https://fe-minimalist-portfolio.netlify.app/assets/images/icons/twitter.svg" alt="twitter"></a>
+        <a href="" target="_blank" class="social-media__link"><img src="https://fe-minimalist-portfolio.netlify.app/assets/images/icons/linkedin.svg" alt="linkedin"></a>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
+
+  
